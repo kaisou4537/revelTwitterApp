@@ -14,7 +14,7 @@ type Auth struct {
 // oauthのコンシューマ設定
 var twitter = oauth.NewConsumer(
 	"consumerkey",
-	"consumersecret"
+	"consumersecret",
 	oauth.ServiceProvider{
 		AuthorizeTokenUrl: "https://api.twitter.com/oauth/authorize",
 		RequestTokenUrl:   "https://api.twitter.com/oauth/request_token",
